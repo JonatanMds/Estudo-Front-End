@@ -1,0 +1,128 @@
+h1{
+    
+    font-size: 48px;
+}
+
+
+body{
+
+    font-family: Arial;
+    color: #4a566e;
+    margin: 0px;
+    transition: background 1s;
+    
+
+    
+}
+
+.caixa1{
+    
+    background: url("Imagens/background.png");
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.caixa2{
+    background-color:#741bff; 
+    padding-bottom: 50px;
+        
+    
+}
+
+.caixa3{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+
+.Menu-topo{
+    text-align: right;
+    padding: 20px;
+
+}
+
+.classeMenu{
+    text-decoration: none;
+    color: #4a566e;
+    
+
+}
+
+.classeMenu:hover{
+    color: blue;
+}
+
+
+.habilidade{
+    background-color: white;
+    width: 300px;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    
+
+    
+}
+
+.conteiner{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.titulohabilidades{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    margin-left: 20px;
+
+}
+
+
+.whatsapp{
+    background: #4AC959;
+    color:white;
+    text-decoration: none;
+    font-family: Arial;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+}
+
+.mandamensagem{
+
+    padding-bottom: 50px;
+}
+
+.falecomigo{
+
+    padding-top: 40px;
+}
+
+@media(max-width: 600px){
+    .Menu-topo{
+        display: none;
+    }
+
+    .habilidade{
+
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+    }
+
+}
